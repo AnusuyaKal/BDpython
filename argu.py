@@ -1,8 +1,8 @@
-def argu(height,*arg,**kwarg):
-    print("Height of the triangle is")
+def argu(i,*arg,**kwarg):
+    print(i, end='')
     for x in arg:
         print(x)
     for kw in kwarg:
-        print(kw, kwarg[kw])
+        print(kw, ':', kwarg[kw])
             
-argu(100,"python is good program")
+argu("python"," is a simple program", use=" to use in Big Data", oops="also it is a object oriented program")
