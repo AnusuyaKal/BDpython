@@ -28,6 +28,6 @@ class SumTest(unittest.TestCase):
     
 # Invoke Unit Test Framework    
 if __name__ == "__main__" :
-    unittest.main()
+    unittest.main(buffer=True)
 
     # python -m unittest discover --start-directory=my_tests_directory
