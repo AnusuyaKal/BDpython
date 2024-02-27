@@ -14,4 +14,4 @@ class TestMath(unittest.TestCase):
         self.assertEqual(6 / 2, 3)
 
 if __name__ == "__main__":
-    unittest.main(Failfast=True)
+    unittest.main()

@@ -10,3 +10,8 @@ Traceback (most recent call last):
     result = x / y
              ~~^~~
 ZeroDivisionError: division by zero
+2024-02-23 14:36:41,160 - ERROR - Error occurred while dividing by zero
+Traceback (most recent call last):
+  File "c:/Users/anusu/Documents/BDpython/Log_Exp.py", line 8, in divide
+    result = x / y
+ZeroDivisionError: division by zero

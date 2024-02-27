@@ -1,7 +1,7 @@
 import logging
 
 # Configure logging
-logging.basicConfig(filename='exampl1.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='ex1.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Log messages
 logging.debug('This is a debug message')
